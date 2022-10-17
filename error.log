@@ -1,0 +1,27 @@
+[2022-10-13 23:06:09 -0400] [568] [INFO] Starting gunicorn 20.1.0
+[2022-10-13 23:06:09 -0400] [568] [INFO] Listening at: http://0.0.0.0:5001 (568)
+[2022-10-13 23:06:09 -0400] [568] [INFO] Using worker: sync
+[2022-10-13 23:06:09 -0400] [696] [INFO] Booting worker with pid: 696
+[2022-10-13 23:06:09 -0400] [697] [INFO] Booting worker with pid: 697
+[2022-10-16 15:34:31 -0400] [568] [CRITICAL] WORKER TIMEOUT (pid:696)
+[2022-10-16 15:34:31 -0400] [568] [CRITICAL] WORKER TIMEOUT (pid:697)
+[2022-10-16 15:34:31 -0400] [697] [INFO] Worker exiting (pid: 697)
+[2022-10-16 15:34:31 -0400] [696] [INFO] Worker exiting (pid: 696)
+[2022-10-16 15:34:32 -0400] [1376] [INFO] Booting worker with pid: 1376
+[2022-10-16 15:34:32 -0400] [1381] [INFO] Booting worker with pid: 1381
+[2022-10-16 15:57:52 -0400] [568] [INFO] Handling signal: term
+[2022-10-16 15:57:52 -0400] [1376] [INFO] Worker exiting (pid: 1376)
+[2022-10-16 15:57:52 -0400] [1381] [INFO] Worker exiting (pid: 1381)
+[2022-10-16 15:57:53 -0400] [568] [INFO] Shutting down: Master
+[2022-10-16 15:58:01 -0400] [526] [INFO] Starting gunicorn 20.1.0
+[2022-10-16 15:58:01 -0400] [526] [INFO] Listening at: http://0.0.0.0:5001 (526)
+[2022-10-16 15:58:01 -0400] [526] [INFO] Using worker: sync
+[2022-10-16 15:58:01 -0400] [689] [INFO] Booting worker with pid: 689
+[2022-10-16 15:58:01 -0400] [690] [INFO] Booting worker with pid: 690
+[2022-10-17 18:25:30 -0400] [526] [CRITICAL] WORKER TIMEOUT (pid:689)
+[2022-10-17 18:25:30 -0400] [526] [CRITICAL] WORKER TIMEOUT (pid:690)
+[2022-10-17 18:25:30 -0400] [689] [INFO] Worker exiting (pid: 689)
+[2022-10-17 18:25:30 -0400] [690] [INFO] Worker exiting (pid: 690)
+[2022-10-17 18:25:30 -0400] [526] [WARNING] Worker with pid 689 was terminated due to signal 9
+[2022-10-17 18:25:30 -0400] [1342] [INFO] Booting worker with pid: 1342
+[2022-10-17 18:25:30 -0400] [1344] [INFO] Booting worker with pid: 1344
