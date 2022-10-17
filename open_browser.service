@@ -1,0 +1,12 @@
+[Unit]
+Description=Gunicorn instance to serve open_browser
+After=network.target
+
+[Service]
+User=andy
+Group=www-data
+WorkingDirectory=/home/andy/Desktop/Pi_Testing
+ExecStart=/home/andy/.local/bin/gunicorn --workers 2 --bind 0.0.0.0:5001 open_browser:app gunicorn --access-logfile /home/andy/Desktop/Pi_Testing/access.log --error-logfile /home/andy/Desktop/Pi_Testing/error.log
+
+[Install]
+WantedBy=multi-user.target
