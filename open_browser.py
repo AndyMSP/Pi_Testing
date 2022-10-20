@@ -1,14 +1,10 @@
 from flask import Flask
-import subprocess
-import logging
-import time
-import webbrowser
+from turn_on import turn_on
 app = Flask(__name__)
 
-@app.route("/open", strict_slashes=False)
+@app.route("/", strict_slashes=False)
 def open():
-    # subprocess.run(['pkill', 'chromium'])
-    subprocess.Popen(['/usr/bin/chromium-browser', '--new-window', '--start-fullscreen', 'https://web-01.tacobell.tech'])
+    turn_on()
     return "200"
 
 if __name__ == "__main__":

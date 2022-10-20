@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/open", strict_slashes=False)
 def open():
     # subprocess.run(['pkill', 'chrome'])
-    os.system('chromium-browser --new-window --start-fullscreen https://web-01.tacobell.tech')
+    os.execl('/usr/bin/chromium-browser', '--new-window', '--start-fullscreen', 'https://web-01.tacobell.tech/pi/grandma')
     return "200"
 
 if __name__ == "__main__":

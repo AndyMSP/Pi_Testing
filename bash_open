@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# Open chrome browser to correct page
+
+chromium-browser --new-window --start-fullscreen https://web-01.tacobell.tech/pi/grandma
