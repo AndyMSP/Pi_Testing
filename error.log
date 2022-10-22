@@ -1,8 +1,0 @@
-[2022-10-18 00:59:47 -0400] [14857] [INFO] Starting gunicorn 20.1.0
-[2022-10-18 00:59:47 -0400] [14857] [INFO] Listening at: http://0.0.0.0:5001 (14857)
-[2022-10-18 00:59:47 -0400] [14857] [INFO] Using worker: sync
-[2022-10-18 00:59:47 -0400] [14858] [INFO] Booting worker with pid: 14858
-[2022-10-18 01:12:54 -0400] [14858] [INFO] Worker exiting (pid: 14858)
-[2022-10-18 01:12:54 -0400] [14857] [INFO] Handling signal: term
-[2022-10-18 01:12:54 -0400] [14857] [WARNING] Worker with pid 14858 was terminated due to signal 15
-[2022-10-18 01:12:54 -0400] [14857] [INFO] Shutting down: Master

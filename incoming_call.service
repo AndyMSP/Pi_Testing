@@ -1,0 +1,10 @@
+[Unit]
+Description=control of tv
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/andy/pi
+ExecStart=/home/andy/.local/bin/gunicorn --workers 2 --bind 0.0.0.0:5001 incoming_call:app
+
+[Install]
+WantedBy=multi-user.target
